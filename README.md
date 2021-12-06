@@ -28,7 +28,7 @@ docker-compose up
 ```
 Una vez terminada la configuracion, tenemos un endpoint disponible en ```http://localhost:8080/``` sobre el cual podemos realizar dos operaciones:
 ### [GET] /api/getprod/pname
-Retorna la informacion de un producto
+Retorna la informacion de un producto _pname_
 
 ### [POST] /api/addprod
 Inserts un producto de la forma:
